@@ -14,8 +14,6 @@ func forLoop() {
 	}
 	fmt.Println()
 }
-
-
 // while style
 
 func whileStyle(){
@@ -25,7 +23,6 @@ func whileStyle(){
 	}
 	fmt.Println("count of ",count)
 }
-
 // do while style 
 
 func doWhileStyle()  {
