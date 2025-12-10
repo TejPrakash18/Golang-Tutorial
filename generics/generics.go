@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 // also generics type any like this printSlice[T any], there any means any type of (int, string, bool, float)
