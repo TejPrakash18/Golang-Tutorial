@@ -7,7 +7,7 @@ type OrderStatus string
 
 const (
 	// Received OrderStatus = iota
-	Received OrderStatus = "received"
+	Received OrderStatus= "received"
 	Confirmed = "confirmed"
 	Prepared = "prepared"
 	Delivered = "delivered"

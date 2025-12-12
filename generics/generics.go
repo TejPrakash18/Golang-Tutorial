@@ -13,6 +13,14 @@ func printSlice[T comparable](items []T) {
 	}
 
 }
+func Contains[T comparable](slice []T, value T) bool{
+	for _, v := range slice {
+		if v == value{
+			return true
+		}
+	}
+	return false
+}
 
 // func printSlice[T int | string | bool | float32](items []T) {
 // 	for _, item := range items {
@@ -35,4 +43,6 @@ func main() {
 		element: []string{"tej", "tp"},
 	}
 	fmt.Println(myStack)
+
+	fmt.Print(Contains([]int{1,2,3},3))
 }
